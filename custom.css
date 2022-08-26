@@ -1,0 +1,271 @@
+.container{
+    width: 100%;
+}
+
+#navigasi{
+    height: 10vh;
+    box-shadow: 0px 0px 0px 1px rgb(225, 205, 205);
+
+}
+
+.logo>img{
+    width: 150px;
+    margin-top: -30px;
+
+}
+
+.menu{
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    text-transform: uppercase;
+    
+
+
+}
+
+.menu>a{
+    padding: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-decoration: none;
+   /* background-color: coral;*/
+    border-radius: 10px;
+}
+
+.search>img{
+    width: 50px;
+    height: 50px;
+    justify-content: right;
+    align-items: right;
+}
+
+#header{
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.deskripsi{
+    font-size: 13px;
+    font-family: Roboto;
+    text-align: left;
+}
+
+.judul{
+    font-size: 50px;
+}
+
+.gambar>img{
+    width: 500px;
+    height: 500px;
+}
+
+.btn-product{
+    background-color: rgb(132, 132, 232) ;
+    border-style: none;
+    padding: 10px;
+    color: aquamarine;
+}
+
+#gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box>img{
+    width: 100%;
+    height: 300px;
+    filter: brightness(50%);
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box>h4{
+    position: absolute;
+    font-family: Roboto;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.box>a{
+    position: absolute;
+    font-family: Roboto;
+    font-size: 15px;
+    margin-bottom: -60px;
+    color: aliceblue;
+}
+
+#gallery>.tombol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product>.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 1px 0px rgb(225, 205, 205);
+
+    font-family: roboto;
+    font-size: 20px;
+    font-weight:100px;
+    padding: 15px;
+}
+
+.product>.box:hover{
+    background-color: rgb(132, 132, 232);
+}
+
+#urt-gambar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-gallery>img{
+    justify-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    padding-left: 60px;
+    padding-top: 30px;
+
+}
+
+.box-gallery>h6{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Roboto;
+
+}
+
+.box-gallery>h5{
+    text-align: center;
+    font-size: 15px;
+    font-family: Roboto;
+    color: grey;
+}
+
+.box-gallery>h1{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Roboto;
+    color: rgb(132, 132, 232);
+}
+
+
+.box-gallery{
+    box-shadow: 0px 0px 1px 0px rgb(225, 205, 205);
+}
+
+.box-gallery:hover{
+    scale:1.01;
+}
+
+#series{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tulisan>h6{
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: Roboto;
+    padding-left : 100px;
+}
+
+.tulisan>h1{
+    padding-top: 8px;   
+    font-size: 10px;
+    font-family: Roboto;
+    color: grey;
+    padding-bottom: 20px;
+        padding-left : 100px;
+}
+
+.tulisan>a{
+    font-size: 10px;
+    padding-left: 100px;
+  
+}
+
+.tulisan{
+    box-shadow: 1px 0px 0px 0px rgb(225, 205, 205);
+}
+
+.tulisan:hover{
+    scale: 1.01;
+}
+
+#footer {   
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.kiri {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.kiri { 
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+.isi-kiri > h3 {    
+    font-family: Courgette;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.desk-footer-1 {  
+    padding-top: 100px;
+    display: flex;
+    justify-content: left;
+}
+
+#footer {   
+    font-family: Roboto;
+}
+
+.desk-1 {   
+    padding-right: 45px;
+}
+
+.desk-1 > h4 {   
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.desk-1 > p {   
+    font-size: 13px;
+    line-height: 22px;  
+    color: gray;
+}
+
+.desk-footer-2 {  
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    padding-bottom: 80px;
+}
